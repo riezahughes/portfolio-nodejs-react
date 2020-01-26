@@ -1,4 +1,10 @@
 const path = require('path');
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
+console.log(process.env.WP_USER);
+console.log(process.env.WP_PASS);
 
 module.exports = {
   siteMetadata: {
@@ -12,6 +18,23 @@ module.exports = {
   plugins: [
     'gatsby-plugin-sitemap',
     'gatsby-plugin-sharp',
+    {
+      resolve: `gatsby-source-wordpress`,
+      options: {
+        // your WordPress source
+        baseUrl: `mythwuld.com`,
+        protocol: `https`,
+        // is it hosted on wordpress.com, or self-hosted?
+        hostingWPCOM: false,
+        // does your site use the Advanced Custom Fields Plugin?
+        useACF: false,
+        auth: {
+          htaccess_user: process.env.WP_USER,
+          htaccess_pass: process.env.WP_PASS,
+          htaccess_sendImmediately: false
+        }
+      }
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
