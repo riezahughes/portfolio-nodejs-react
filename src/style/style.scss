@@ -74,6 +74,19 @@
   font-size: 1.5rem;
 }
 
+.section-header {
+  font-size: 2rem;
+  margin: 1rem 0;
+  text-align: left;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.section-paragraph {
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
 .blog-list .post-card .post-excerpt p:not(:last-child) {
   margin-bottom: 1rem;
 }
