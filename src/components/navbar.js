@@ -55,7 +55,7 @@ class Navbar extends Component {
                     <img
                       src={logo}
                       alt="Gatsby Starter WordPress Community"
-                      style={{ width: "88px" }}
+                      style={{ width: "40px" }}
                     />
                   </Link>
                   <div className="navbar-burger burger" data-target="navMenu">
