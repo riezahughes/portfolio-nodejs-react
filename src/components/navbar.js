@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link, graphql, StaticQuery } from "gatsby";
-import logo from "../images/logo.svg";
+import logo from "../images/logo-full-white.png";
 
 class Navbar extends Component {
   componentDidMount() {
