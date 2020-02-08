@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link, graphql, StaticQuery } from "gatsby";
-import logo from "../images/logo.svg";
+import logo from "../images/logo-full-white.png";
 
 class Header extends Component {
   componentDidMount() {
@@ -52,9 +52,10 @@ class Header extends Component {
                         title="Gatsby Starter WordPress Community"
                       >
                         <img
+                          className=""
                           src={logo}
                           alt="Gatsby Starter WordPress Community"
-                          style={{ width: "88px" }}
+                          style={{ width: "40px" }}
                         />
                       </Link>
                       <div
