@@ -15,7 +15,7 @@ export default props => {
         className="title is-size-2 has-text-weight-bold is-bold-light"
         dangerouslySetInnerHTML={{ __html: page.title }}
       />
-      <div dangerouslySetInnerHTML={{ __html: page.content }} />
+      <div className="main-content" dangerouslySetInnerHTML={{ __html: page.content }} />
     </SimpleLayout>
   );
 };

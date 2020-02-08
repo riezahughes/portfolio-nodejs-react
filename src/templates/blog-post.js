@@ -28,7 +28,7 @@ export default props => {
         />
       </section>
       <section className="section">
-        <div dangerouslySetInnerHTML={{ __html: post.content }} />
+        <div className="main-content" dangerouslySetInnerHTML={{ __html: post.content }} />
       </section>
       <ul
         style={{
