@@ -83,17 +83,17 @@
     text-decoration: underline;
   }
   p {
-    padding-bottom: 1rem;
-    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    font-size: 1.2rem;
   }
   ul{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     list-style: circle;
     margin-left: 40px;
     padding-bottom: 20px;
   }
   li{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   a{
     color: #e66536
@@ -110,4 +110,8 @@
 
 footer.footer {
   padding-top: 0;
+}
+
+.container.container-content{
+  max-width: 1042px;
 }

@@ -84,7 +84,7 @@ class Header extends Component {
                 </nav>
               </div>
               <div className="hero-body">
-                <div className="container has-text-centered">
+                <div className="container container-content has-text-centered">
                   <img src={logo} alt="Main Logo" style={{width: "200px"}}/>
                   <h1 className="title">The Portfolio of Daniel Ruxton</h1>
                   <h2 className="subtitle">A small, proud blog of things i've worked on.</h2>
