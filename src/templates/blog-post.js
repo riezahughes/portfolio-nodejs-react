@@ -15,7 +15,7 @@ export default props => {
   return (
     <SimpleLayout title={siteTitle}>
       <SEO title={post.title} keywords={[`gatsby`, `blog`, `wordpress`]} />
-      <section className="section has-text-centered">
+      <section className="section has-text-centered heading">
         <span className="is-uppercase">
           {date} |{" "}
           {post.categories.map((c, index) => (

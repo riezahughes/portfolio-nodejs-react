@@ -12,7 +12,7 @@ export default props => {
     <SimpleLayout title={siteTitle}>
       <SEO title={page.title} keywords={[`gatsby`, `blog`, `wordpress`]} />
       <h1
-        className="title is-size-2 has-text-weight-bold is-bold-light"
+        className="title heading is-size-2 has-text-weight-bold is-bold-light"
         dangerouslySetInnerHTML={{ __html: page.title }}
       />
       <div className="main-content" dangerouslySetInnerHTML={{ __html: page.content }} />

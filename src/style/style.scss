@@ -74,6 +74,12 @@
   font-size: 1.5rem;
 }
 
+h1.title{
+  border: 1px solid #dedede;
+  padding: 15px;
+  margin-top: 10px;
+}
+
 .main-content{
   h2 {
     font-size: 2rem;
@@ -99,6 +105,10 @@
     color: #e66536
   }
 } 
+
+.heading{
+  padding-bottom: 0;
+}
 
 .blog-list .post-card .post-excerpt p:not(:last-child) {
   margin-bottom: 1rem;
