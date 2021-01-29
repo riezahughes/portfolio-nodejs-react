@@ -3,6 +3,7 @@
 
 // Importing Bulma from node_modules
 @import "~bulma/bulma.sass";
+@import "~bulma/sass/base/generic.sass";
 
 @media screen and (min-width: 1088px) {
   .post-card.column.is-one-third-desktop {
