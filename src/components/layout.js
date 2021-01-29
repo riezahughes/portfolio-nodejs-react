@@ -4,7 +4,6 @@ import PropTypes from "prop-types";
 import Header from "./header";
 import Footer from "./footer";
 import "../style/style.scss";
-import 'bulma/css/bulma.css'
 
 const Layout = ({ children }) => (
   <>
